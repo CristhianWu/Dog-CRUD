@@ -18,15 +18,22 @@ With the containers up, enter into the application container with
 Once you are inside the container, use the following commands
 
 > composer install
+
 > cp .env.example .env
-> php artisan key:generate
+
+> php artisan key:generat
+
 > php artisan config:clear
+
 > php artisan config:cache
+
 > php artisan migrate
+
 > npm install
+
 > npm run build
 
 Once you are done with all the commands, the application must be ready for use!
 
 To enter the application, enter the following URL into your web browser
-> http://localhost:8081/dog
+- http://localhost:8081/dog
